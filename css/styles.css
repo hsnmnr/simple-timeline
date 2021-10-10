@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.timeline-left {
+    width: 50%;
+    border-right: 0.6px solid rgb(185, 185, 185);
+}
+
+.timeline-right {
+    margin-top: 70px;
+    width: 50%;
+}
+
+.data {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.left {
+    justify-content: flex-start !important;
+}
+
+.data-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: -20px 0 0 20px;
+}
+.data-image {
+    width: 150px;
+    height: 50px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.data-line {
+    width: 30%;
+
+    border-top: 0.6px solid rgb(185, 185, 185);
+}
+.top {
+    position: relative;
+    top: -11px;
+}
+.right {
+    right: -100%;
+}
+
+.center {
+    margin: auto;
+    /* margin-bottom: -10px; */
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: purple;
+}
+
+@media (max-width: 767.98px) {
+    .data-content {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 0 0px;
+    }
+}
